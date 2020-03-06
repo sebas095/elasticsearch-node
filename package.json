@@ -1,0 +1,30 @@
+{
+  "name": "elasticsearch-node",
+  "version": "1.0.0",
+  "description": "Build a Real-time search engine using node.js, Vue.js and Elasticsearch (Tutorial od https://www.digitalocean.com/community/tutorials/how-to-build-a-real-time-search-engine-with-node-vue-and-elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:data": "node data",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebas095/elasticsearch-node-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebas095/elasticsearch-node-/issues"
+  },
+  "homepage": "https://github.com/sebas095/elasticsearch-node-#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
