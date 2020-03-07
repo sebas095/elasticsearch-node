@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "start:data": "node data",
+    "seed": "node data/data",
+    "start:seed": "npm run seed && npm start",
     "dev": "nodemon index"
   },
   "repository": {

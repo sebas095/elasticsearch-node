@@ -1,8 +1,8 @@
 const { Client } = require("@elastic/elasticsearch");
-const { ES_HOST, ES_PORT } = require("./config");
+const { ES_HOST, ES_PORT } = require("../config");
 require("colors");
 
-const cities = require("./data/cities.json");
+const cities = require("./cities.json");
 const client = new Client({ node: `http://${ES_HOST}:${ES_PORT}` });
 let bulk = [];
 
